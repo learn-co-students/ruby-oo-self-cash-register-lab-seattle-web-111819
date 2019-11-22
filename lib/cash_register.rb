@@ -53,7 +53,7 @@ def void_last_transaction
  #binding.pry
 
  if @items.length == 0
-  self.total = 0.0
+  self.total = @total - @total
   
  end
 end
